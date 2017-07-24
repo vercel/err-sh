@@ -7,6 +7,9 @@
   },
   "repository": "zeit/err-redirect",
   "license": "MIT",
+  "now": {
+    "alias": "err.sh"
+  },
   "dependencies": {
     "micro": "7.3.3"
   }
