@@ -6,5 +6,8 @@
     "start": "micro"
   },
   "repository": "zeit/err-redirect",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "micro": "7.3.3"
+  }
 }
