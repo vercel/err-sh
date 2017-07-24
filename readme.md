@@ -2,4 +2,4 @@
 
 This microservice forwards you to detailed error messages.
 
-Example: https://err.zeit.sh/micro/10
+Example: https://err.sh/micro/10
