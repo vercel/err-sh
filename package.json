@@ -1,9 +1,9 @@
 {
   "name": "err-redirect",
   "version": "1.0.1",
-  "main": "index.js",
   "scripts": {
-    "start": "micro"
+    "start": "micro",
+    "dev": "micro-dev"
   },
   "repository": "zeit/err-redirect",
   "license": "MIT",
@@ -12,5 +12,8 @@
   },
   "dependencies": {
     "micro": "8.0.1"
+  },
+  "devDependencies": {
+    "micro-dev": "1.0.2"
   }
 }
