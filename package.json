@@ -11,6 +11,6 @@
     "alias": "err.sh"
   },
   "dependencies": {
-    "micro": "7.3.3"
+    "micro": "8.0.1"
   }
 }
