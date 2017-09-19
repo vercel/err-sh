@@ -1,11 +1,11 @@
 {
-  "name": "err-redirect",
+  "name": "err-sh",
   "version": "1.0.2",
   "scripts": {
     "start": "micro",
     "dev": "micro-dev"
   },
-  "repository": "zeit/err-redirect",
+  "repository": "zeit/err-sh",
   "license": "MIT",
   "now": {
     "alias": "err.sh"
