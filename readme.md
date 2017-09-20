@@ -1,4 +1,4 @@
-# err-sh
+# err.sh
 
 This microservice forwards you to detailed error messages.
 
