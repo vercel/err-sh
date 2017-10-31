@@ -1,5 +1,14 @@
 module.exports = (request, response) => {
-  const urlParts = request.url.split('/')
+  const { url } = request
+  const urlParts = url.split('/')
+
+  if (url === '/') {
+    response.writeHead(302, {
+      Location: `https://zeit.co/blog/err-sh`
+    })
+
+    response.end()
+  }
 
   if (urlParts.length < 3) {
     return {
