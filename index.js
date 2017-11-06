@@ -8,6 +8,7 @@ module.exports = (request, response) => {
     })
 
     response.end()
+    return
   }
 
   if (urlParts.length < 3) {
