@@ -18,11 +18,13 @@ module.exports = (request, response) => {
     }
   }
 
-  const repo = urlParts[1]
-  const code = urlParts[2]
+  const isZeit = urlParts.length === 3
+  const user = isZeit ? 'zeit' : urlParts[1]
+  const repo = urlParts[isZeit ? 1 : 2]
+  const code = urlParts[isZeit ? 2 : 3]
 
   response.writeHead(302, {
-    Location: `https://github.com/zeit/${repo}/blob/master/errors/${code}.md`
+    Location: `https://github.com/${user}/${repo}/blob/master/errors/${code}.md`
   })
 
   response.end()
