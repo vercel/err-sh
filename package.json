@@ -11,9 +11,9 @@
     "alias": "err.sh"
   },
   "dependencies": {
-    "micro": "9.0.0"
+    "micro": "9.0.1"
   },
   "devDependencies": {
-    "micro-dev": "1.3.0"
+    "micro-dev": "1.4.0"
   }
 }
