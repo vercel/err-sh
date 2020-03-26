@@ -4,7 +4,7 @@ module.exports = (request, response) => {
 
   if (url === '/') {
     response.writeHead(302, {
-      Location: `https://zeit.co/blog/err-sh`
+      Location: `https://zeit.co`
     })
 
     response.end()
