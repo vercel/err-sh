@@ -3,6 +3,10 @@
         {
             "source": "/(.*)",
             "destination": "/api/index.js"
+        },
+        {
+            "source": "/gitlab/(.*)",
+            "destination": "/api/gitlab.js"
         }
     ]
 }
