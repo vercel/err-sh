@@ -12,8 +12,13 @@ module.exports = (request, response) => {
   }
 
   if (urlParts.length < 3) {
-    response.writeHead(400);
-    response.end();
+    response.writeHead(400, {
+      "Content-Type": "application/json",
+    });
+    response.end(JSON.stringify({
+      error: "Please specify all the missing data (see the repo)!",
+      errorHandle: "missing_data",
+    }));
     return;
   }
 
