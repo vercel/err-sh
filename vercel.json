@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/index.js": {
-      "maxDuration": 1
+      "maxDuration": 3
     }
   },
   "rewrites": [
