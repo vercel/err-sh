@@ -13,6 +13,7 @@ module.exports = (request, response) => {
 
   if (urlParts.length < 3) {
     response.writeHead(400);
+    response.end();
     return;
   }
 
